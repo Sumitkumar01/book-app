@@ -12,9 +12,9 @@ app.use(express.json());
 // middleware for handling cors policy
 
 app.use(cors({
-    origin: 'http://localhost:8000',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type'],
+    // origin: 'http://localhost:8000',
+    // methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    // allowedHeaders: ['Content-Type'],
 }))
 
 app.use('/books', booksRoutes);
